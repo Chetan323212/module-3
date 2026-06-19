@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box-contianer{
+            border: 2px solid black;
+            display: flex;
+            margin-left: 20px;
+            flex-wrap: wrap;
+            gap: 20px;
+            height: 500px;
+            width: 500px;
+            align-items: center;
+            
+            /*justify-content: space-between;
+            justify-content: space-around;
+            justify-content: space-evenly;*/
+
+        }
+        .box{
+            background-color: blueviolet;
+            color: white;
+            padding: 100px;
+            border-radius: 8px;
+            height:fit-content;
+            width: fit-content;
+        }
+        .special{
+            align-self: center;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="box-contianer">
+        <div class="box">box 1</div>
+        <div class="box special">box 2</div>
+        <div class="box">box 3</div>
+    </div>
+</body>
+</html>
+
+
+<!-- 
+flex in css is user for arranging element in a row ar column and 
+controling the spacing and alignment of these elements
+
+w/o flex arranging item in a page requeries a lot of exetra css
+
+main axiss: theh direction in which the items are layedout 
+cross axis: perpendiculer to main axis
+defalut(row): main axis is left to right and cross axis in top to bottom
+flex-direction: row(defalut) : main axis is ldft 
+
+-->

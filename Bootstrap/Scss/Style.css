@@ -1,0 +1,18 @@
+.box {
+  background-color: red;
+  height: 200px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box .innerbox {
+  background-color: yellow;
+  height: 50px;
+  width: 50px;
+}
+
+#text {
+  background-color: aqua;
+  color: blue;
+}/*# sourceMappingURL=Style.css.map */

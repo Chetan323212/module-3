@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="./Styles.css"> -->
+
+    <style>
+        h3 , h2 {
+            color: red;
+        }
+        .first-p ,.second-p{
+            color: rgb(0, 255, 255);
+        }
+        #third-p{
+            color: #800080;
+            font-size: 20px;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: 900;
+            line-height: 1.5;
+            text-transform: uppercase;
+            text-align: center;
+        }
+
+        *{
+            font-size: 30px;
+        }
+        .parent{
+            height: 500px;
+            width: 500px;
+            background-color: pink;
+        }
+        .child{
+            height: 100%;
+            width: 5rem;
+            background-color: red;
+            font-size: 10px;
+        }
+        <!-- em depends on the fontsize of current element  -->
+        <!-- and rem is depend on fontsize of page -->
+
+
+    </style>
+
+</head>
+
+<body>
+    <h1 style="color: rgb(87, 1, 245)">HELLO WORLD</h1>
+
+    <h2> This is h2 component</h2>
+    <h3> Hi I am Chetan</h3>
+    <h3> Hi I am Chetan</h3>
+    <h3> Hi I am Chetan</h3>
+
+    <p class="first-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, exercitationem officia libero placeat mollitia unde sunt dolores natus minima voluptas.</p>
+    <p class="second-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, exercitationem officia libero placeat mollitia unde sunt dolores natus minima voluptas.</p>
+    <p id="third-p">Lorem ipsum dolor </p>
+     
+    <div class="parent">
+        <div class="child">
+
+        </div>
+    </div>
+
+</body>
+
+</html>
+
+<!-- IN CSS, the cascade is the algoithm that determines which 
+style rule apply when multliple rule target the same HTML element -->
