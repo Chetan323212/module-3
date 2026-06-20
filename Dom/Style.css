@@ -1,0 +1,36 @@
+body{
+    background-color: brown;
+}
+
+
+.heading{
+    color: blue;
+    background-color: yellow;
+}
+
+
+p{
+    text-align: left;
+    font-size: 18px;
+    color: aquamarine;
+}
+
+
+button{
+    color: white;
+    background-color: red;
+}
+
+
+
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    padding: 10px;
+    border: 2px solid black;
+    margin: 10px;
+    text-align: center;
+    justify-content: center;
+    color: aliceblue;
+}
