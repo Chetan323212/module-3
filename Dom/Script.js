@@ -103,6 +103,39 @@ let div = document.querySelectorAll("div")
 //---------------------------------------------------------------------
 console.log(div[1].style);
 
+div[1].style.backgroundColor = "Yellow"
+
+let newBtn =  document.createElement("button")
+newBtn.innerText = "Submit"
+newBtn.style.height = "50px"
+newBtn.style.width = "70px"
+div[1].append(newBtn)
+div[1].after(newBtn)
+
+
+let h1 = document.querySelector("h1")
+h1.remove()
+
+
+let click_me = document.createElement("button")
+click_me.innerText = "Click Me"
+
+div[0].after(click_me)
+
+
+let para = document.createElement("p")
+
+para.innerText = "Hello Chetan Wellcome to Javascript Dom"
+
+para.setAttribute("class" , "para")
+
+para.style.color = "iceWhite"
+para.style.fontSize = "30px"
+div[0].before(para)
+
+
+
+
 
 
 
