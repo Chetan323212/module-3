@@ -31,16 +31,28 @@ let matrix = [
 // console.log(sum); 
 
 
-let target = 2
-for(let i = 0; i< matrix.length; i++){
-    for(let j =0; j < matrix[i].length; j++){
-        if(target == matrix[i][j]){
-            console.log(matrix[i][j]);
-        }
-    }
-}
+// let target = 2
+// for(let i = 0; i< matrix.length; i++){
+//     for(let j =0; j < matrix[i].length; j++){
+//         if(target == matrix[i][j]){
+//             console.log(matrix[i][j]);
+//         }
+//     }
+// }
 
 
 
 // find the element 
+
+
+// for(let i = 0; i < matrix.length; i++){
+//     console.log(matrix[i][i]);
+// } // first digonal
+
+
+
+// for(let i = 0; i <matrix.length; i++){
+//         console.log(matrix[i][matrix.length - 1 - i]);
+// } // second digonal
+
 
